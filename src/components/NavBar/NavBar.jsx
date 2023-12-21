@@ -1,12 +1,18 @@
 import CartWidget from "../CartWidget/CartWidget"
+import Badge from 'react-bootstrap/Badge';
+
 const NavBar = () => {
+    
     return (
         <nav>
-            <h3>Ecommerce</h3>
+            <h3>
+        Verdulería Santa Cruz<Badge bg="secondary"></Badge>
+      </h3>
             <div>
-            <button>Celulares</button>
-            <button>Tablets</button>
-            <button>Notebooks</button>
+            <button>Frutas</button>
+            <button>Verduras</button>            
+            <button>Conservas</button>
+            <button>Para el asado</button>
             </div>
             <CartWidget />
         </nav>
